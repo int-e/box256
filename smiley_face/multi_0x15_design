@@ -1,0 +1,58 @@
+[the basic plan is to run threads for 0x10 cycles each, with some
+drawing straight lines and some drawing pixels from tables...]
+
+......XXXX......
+....XXXXXXXX....
+...XXXXXXXXXX...
+..XXXX.XX.XXXX..
+.XXXXX.XX.XXXXX.
+.XXXXX.XX.XXXXX.
+XXXXXX.XX.XXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+.XX.XXXXXXXX.XX.
+.XXX.XXXXXX.XXX.
+..XXX......XXX..
+...XXXXXXXXXX...
+....XXXXXXXX....
+......XXXX......
+
+population: 170
+
+....yyXYYXy.....
+....YYXYYXYX....
+...XYYXYYXYXX...
+..XXYY.YY.YXXX..
+.XXXYY.YY.YXXXX.
+.XXXYY.YY.YXXXX.
+ZZZZZZzZZzZZZZZZ
+ZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZ
+.XX.YYXYYXYX.XX.
+.XXXyYXYYXY.XXX.
+..XXYy.yy.yXXX..
+...XYYXYYXYXX...
+....YYXYYXYX....
+....yyXYYXy.....
+
+remaining X: 59
+y and z: 13
+
+16 iterations...
+Z:  8 threads
+Y: 10 threads (play with shifting starting points)
+yz: 2 thread
+remaining: 8 threads
+loop: 1
+
+
+PIX x: 1+1+1+4: 14 = 28
+ADD  : 4+5+1+4: 14 = 56
+TABLE:             = 64 (put)
+TABLE:             = 16 (clear)
+IPS:               = 28+28
+THRx5+LOOP         = 24
+
+color: 0A
