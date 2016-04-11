@@ -1,4 +1,8 @@
 ; 0x10 cycles checkerboard II by int-e
+;
+; - uses two kinds of self-overlapping instructions:
+;   025 014 nnn 025 == SUB @14 nnn *25
+;   01D 01D nnn 01D == SUB @1D nnn @1D
 
 THR 004 001 00C
 THR 004 001 00C
