@@ -1,6 +1,6 @@
 ; 0x04 lines of code sierpinski by int-e
 
 SUB @0D 001 @0D
-ADD @4E @0E @52
-MOV @12 @0E 042
-PIX 011 008 000
+MOV @0E @12 042
+ADD @0E @52 @0E
+PIX 000 008 000
