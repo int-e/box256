@@ -1,0 +1,11 @@
+; universal solution by int-e
+; 0x08 lines of code
+
+SUB 06C *0B @01
+SUB *01 001 *01
+PIX @01 *01 01E
+ADD @01 080 @19
+DIV *01 010 @1A
+JEQ *01 000 *21
+PIX 080 00C 000
+MOV @16 @FF 003
